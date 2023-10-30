@@ -7,6 +7,7 @@ A simple diary app made by SwiftUI framework.
 ## Todo
 
 - [ ] More color scheme
+- [ ] More Font
 - [ ] ICloud
 - [ ] Rich text
 - [ ] Search improve
