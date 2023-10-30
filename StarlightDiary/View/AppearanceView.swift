@@ -226,13 +226,17 @@ struct AppearanceView: View {
 }//View
 
 
-
-
-struct AppearanceView_Previews: PreviewProvider {
-    static var previews: some View {
-        AppearanceView()
-            .environmentObject(DiaryViewMode())
-            .preferredColorScheme(.light)
-    }
+#Preview {
+    AppearanceView()
+        .environmentObject(DiaryViewMode())
+        .preferredColorScheme(.light)
 }
+
+//struct AppearanceView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AppearanceView()
+//            .environmentObject(DiaryViewMode())
+//            .preferredColorScheme(.light)
+//    }
+//}
 

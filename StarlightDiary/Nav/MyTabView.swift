@@ -139,8 +139,6 @@ struct MyTabView: View {
 
 
 // MARK: - 预览
-struct MyTabView_Previews: PreviewProvider {
-    static var previews: some View {
-        MyTabView(selectTab: .constant(.diary),selectView: .constant(.diary))
-    }
+#Preview {
+    MyTabView(selectTab: .constant(.diary), selectView: .constant(.diary))
 }
