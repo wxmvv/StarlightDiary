@@ -1,8 +1,8 @@
 //
 //  AppearanceView.swift
-//  mmDiary
+//  StarlightDiary
 //
-//  Created by wxm on 2022/9/23.
+//  Created by 萌萌 on 2023/10/30.
 //
 
 import SwiftUI

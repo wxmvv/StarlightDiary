@@ -43,12 +43,3 @@ struct ContentView: View {
     ContentView()
         .environmentObject(DiaryViewMode())
 }
-
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView()
-//            .environmentObject(DiaryViewMode())
-//    }
-//}
-
-

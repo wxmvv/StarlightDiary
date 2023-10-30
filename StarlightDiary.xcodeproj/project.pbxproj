@@ -14,14 +14,52 @@
 		C4445E362AEFBFAF00BB9504 /* StarlightDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E352AEFBFAF00BB9504 /* StarlightDiaryUITests.swift */; };
 		C4445E382AEFBFAF00BB9504 /* StarlightDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E372AEFBFAF00BB9504 /* StarlightDiaryUITestsLaunchTests.swift */; };
 		C4445E4A2AEFC14A00BB9504 /* DiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E492AEFC14A00BB9504 /* DiaryViewModel.swift */; };
-		C4445E4E2AEFC1B400BB9504 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = C4445E4D2AEFC1B400BB9504 /* Extension */; };
-		C4445E502AEFC1EA00BB9504 /* View in Resources */ = {isa = PBXBuildFile; fileRef = C4445E4F2AEFC1EA00BB9504 /* View */; };
-		C4445E522AEFC1FB00BB9504 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = C4445E512AEFC1FB00BB9504 /* Resources */; };
-		C4445E542AEFC21700BB9504 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C4445E532AEFC21700BB9504 /* zh-Hans.lproj */; };
 		C4445E572AEFC23B00BB9504 /* StarlightDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4445E552AEFC23B00BB9504 /* StarlightDiary.xcdatamodeld */; };
 		C4445E592AEFC26C00BB9504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4445E582AEFC26C00BB9504 /* Assets.xcassets */; };
-		C4445E5B2AEFC27A00BB9504 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C4445E5A2AEFC27A00BB9504 /* en.lproj */; };
 		C4445E5D2AEFC28F00BB9504 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E5C2AEFC28F00BB9504 /* MyTabView.swift */; };
+		C4445E662AEFC41C00BB9504 /* AppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E5F2AEFC41B00BB9504 /* AppIcon.swift */; };
+		C4445E672AEFC41C00BB9504 /* PreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E602AEFC41B00BB9504 /* PreferenceKey.swift */; };
+		C4445E682AEFC41C00BB9504 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E612AEFC41B00BB9504 /* Tab.swift */; };
+		C4445E692AEFC41C00BB9504 /* HeartColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E622AEFC41B00BB9504 /* HeartColor.swift */; };
+		C4445E6A2AEFC41C00BB9504 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E632AEFC41B00BB9504 /* Theme.swift */; };
+		C4445E6B2AEFC41C00BB9504 /* MoodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E642AEFC41B00BB9504 /* MoodType.swift */; };
+		C4445E6C2AEFC41C00BB9504 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E652AEFC41C00BB9504 /* FontStyle.swift */; };
+		C4445E822AEFC51B00BB9504 /* AppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E702AEFC51B00BB9504 /* AppearanceView.swift */; };
+		C4445E832AEFC51B00BB9504 /* DefaultDiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E712AEFC51B00BB9504 /* DefaultDiaryView.swift */; };
+		C4445E842AEFC51B00BB9504 /* DiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E722AEFC51B00BB9504 /* DiaryView.swift */; };
+		C4445E852AEFC51B00BB9504 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E732AEFC51B00BB9504 /* JournalView.swift */; };
+		C4445E862AEFC51B00BB9504 /* MinimalStyleMoodCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E762AEFC51B00BB9504 /* MinimalStyleMoodCard.swift */; };
+		C4445E872AEFC51B00BB9504 /* DiaryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E782AEFC51B00BB9504 /* DiaryCardView.swift */; };
+		C4445E882AEFC51B00BB9504 /* DiaryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E792AEFC51B00BB9504 /* DiaryListView.swift */; };
+		C4445E892AEFC51B00BB9504 /* DiaryCardLayOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E7A2AEFC51B00BB9504 /* DiaryCardLayOutView.swift */; };
+		C4445E8A2AEFC51B00BB9504 /* MyToastAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E7C2AEFC51B00BB9504 /* MyToastAlertView.swift */; };
+		C4445E8B2AEFC51B00BB9504 /* MyTextFieldWithUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E7D2AEFC51B00BB9504 /* MyTextFieldWithUIKit.swift */; };
+		C4445E8C2AEFC51B00BB9504 /* MyDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E7E2AEFC51B00BB9504 /* MyDatePicker.swift */; };
+		C4445E8D2AEFC51B00BB9504 /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E7F2AEFC51B00BB9504 /* FavView.swift */; };
+		C4445E8E2AEFC51B00BB9504 /* DiaryEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E802AEFC51B00BB9504 /* DiaryEditView.swift */; };
+		C4445E8F2AEFC51C00BB9504 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E812AEFC51B00BB9504 /* SettingView.swift */; };
+		C4445E982AEFC52700BB9504 /* MyLottieVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E912AEFC52700BB9504 /* MyLottieVIew.swift */; };
+		C4445E992AEFC52700BB9504 /* BlankButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E932AEFC52700BB9504 /* BlankButtonStyle.swift */; };
+		C4445E9A2AEFC52700BB9504 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E942AEFC52700BB9504 /* Color+.swift */; };
+		C4445E9B2AEFC52700BB9504 /* MyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E952AEFC52700BB9504 /* MyFormatter.swift */; };
+		C4445E9C2AEFC52700BB9504 /* UIPickerView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E962AEFC52700BB9504 /* UIPickerView+.swift */; };
+		C4445E9D2AEFC52700BB9504 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E972AEFC52700BB9504 /* Date+.swift */; };
+		C4445EB02AEFC53300BB9504 /* mmDiaryStore.storekit in Resources */ = {isa = PBXBuildFile; fileRef = C4445E9F2AEFC53300BB9504 /* mmDiaryStore.storekit */; };
+		C4445EB12AEFC53300BB9504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4445EA12AEFC53300BB9504 /* Preview Assets.xcassets */; };
+		C4445EB22AEFC53300BB9504 /* heart3.json in Resources */ = {isa = PBXBuildFile; fileRef = C4445EA32AEFC53300BB9504 /* heart3.json */; };
+		C4445EB32AEFC53300BB9504 /* heart2.json in Resources */ = {isa = PBXBuildFile; fileRef = C4445EA42AEFC53300BB9504 /* heart2.json */; };
+		C4445EB42AEFC53300BB9504 /* write.json in Resources */ = {isa = PBXBuildFile; fileRef = C4445EA52AEFC53300BB9504 /* write.json */; };
+		C4445EB52AEFC53300BB9504 /* listening-music.json in Resources */ = {isa = PBXBuildFile; fileRef = C4445EA62AEFC53300BB9504 /* listening-music.json */; };
+		C4445EB62AEFC53300BB9504 /* heart5.json in Resources */ = {isa = PBXBuildFile; fileRef = C4445EA72AEFC53300BB9504 /* heart5.json */; };
+		C4445EB72AEFC53300BB9504 /* arrow.json in Resources */ = {isa = PBXBuildFile; fileRef = C4445EA82AEFC53300BB9504 /* arrow.json */; };
+		C4445EB82AEFC53300BB9504 /* heart4.json in Resources */ = {isa = PBXBuildFile; fileRef = C4445EA92AEFC53300BB9504 /* heart4.json */; };
+		C4445EB92AEFC53300BB9504 /* hi.json in Resources */ = {isa = PBXBuildFile; fileRef = C4445EAA2AEFC53300BB9504 /* hi.json */; };
+		C4445EBA2AEFC53300BB9504 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445EAB2AEFC53300BB9504 /* Store.swift */; };
+		C4445EBB2AEFC53300BB9504 /* Ubuntu Mono derivative Powerline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4445EAD2AEFC53300BB9504 /* Ubuntu Mono derivative Powerline.ttf */; };
+		C4445EBC2AEFC53300BB9504 /* Ubuntu Mono derivative Powerline Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4445EAE2AEFC53300BB9504 /* Ubuntu Mono derivative Powerline Bold.ttf */; };
+		C4445EBD2AEFC53300BB9504 /* SmileySans-Oblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4445EAF2AEFC53300BB9504 /* SmileySans-Oblique.ttf */; };
+		C4445EC12AEFC53D00BB9504 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4445EBF2AEFC53D00BB9504 /* Localizable.strings */; };
+		C4445EC52AEFC54500BB9504 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4445EC32AEFC54400BB9504 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,15 +93,53 @@
 		C4445E442AEFBFC100BB9504 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4445E472AEFC03A00BB9504 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
 		C4445E492AEFC14A00BB9504 /* DiaryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewModel.swift; sourceTree = "<group>"; };
-		C4445E4D2AEFC1B400BB9504 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
-		C4445E4F2AEFC1EA00BB9504 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
-		C4445E512AEFC1FB00BB9504 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
-		C4445E532AEFC21700BB9504 /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
 		C4445E562AEFC23B00BB9504 /* mwDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mwDiary.xcdatamodel; sourceTree = "<group>"; };
 		C4445E582AEFC26C00BB9504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4445E5A2AEFC27A00BB9504 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 		C4445E5C2AEFC28F00BB9504 /* MyTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 		C4445E5E2AEFC36E00BB9504 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C4445E5F2AEFC41B00BB9504 /* AppIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIcon.swift; sourceTree = "<group>"; };
+		C4445E602AEFC41B00BB9504 /* PreferenceKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKey.swift; sourceTree = "<group>"; };
+		C4445E612AEFC41B00BB9504 /* Tab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		C4445E622AEFC41B00BB9504 /* HeartColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartColor.swift; sourceTree = "<group>"; };
+		C4445E632AEFC41B00BB9504 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C4445E642AEFC41B00BB9504 /* MoodType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoodType.swift; sourceTree = "<group>"; };
+		C4445E652AEFC41C00BB9504 /* FontStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		C4445E702AEFC51B00BB9504 /* AppearanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearanceView.swift; sourceTree = "<group>"; };
+		C4445E712AEFC51B00BB9504 /* DefaultDiaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultDiaryView.swift; sourceTree = "<group>"; };
+		C4445E722AEFC51B00BB9504 /* DiaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryView.swift; sourceTree = "<group>"; };
+		C4445E732AEFC51B00BB9504 /* JournalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		C4445E762AEFC51B00BB9504 /* MinimalStyleMoodCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimalStyleMoodCard.swift; sourceTree = "<group>"; };
+		C4445E782AEFC51B00BB9504 /* DiaryCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryCardView.swift; sourceTree = "<group>"; };
+		C4445E792AEFC51B00BB9504 /* DiaryListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryListView.swift; sourceTree = "<group>"; };
+		C4445E7A2AEFC51B00BB9504 /* DiaryCardLayOutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryCardLayOutView.swift; sourceTree = "<group>"; };
+		C4445E7C2AEFC51B00BB9504 /* MyToastAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyToastAlertView.swift; sourceTree = "<group>"; };
+		C4445E7D2AEFC51B00BB9504 /* MyTextFieldWithUIKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextFieldWithUIKit.swift; sourceTree = "<group>"; };
+		C4445E7E2AEFC51B00BB9504 /* MyDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDatePicker.swift; sourceTree = "<group>"; };
+		C4445E7F2AEFC51B00BB9504 /* FavView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
+		C4445E802AEFC51B00BB9504 /* DiaryEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryEditView.swift; sourceTree = "<group>"; };
+		C4445E812AEFC51B00BB9504 /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		C4445E912AEFC52700BB9504 /* MyLottieVIew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLottieVIew.swift; sourceTree = "<group>"; };
+		C4445E932AEFC52700BB9504 /* BlankButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlankButtonStyle.swift; sourceTree = "<group>"; };
+		C4445E942AEFC52700BB9504 /* Color+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		C4445E952AEFC52700BB9504 /* MyFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyFormatter.swift; sourceTree = "<group>"; };
+		C4445E962AEFC52700BB9504 /* UIPickerView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPickerView+.swift"; sourceTree = "<group>"; };
+		C4445E972AEFC52700BB9504 /* Date+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		C4445E9F2AEFC53300BB9504 /* mmDiaryStore.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mmDiaryStore.storekit; sourceTree = "<group>"; };
+		C4445EA12AEFC53300BB9504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4445EA32AEFC53300BB9504 /* heart3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart3.json; sourceTree = "<group>"; };
+		C4445EA42AEFC53300BB9504 /* heart2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart2.json; sourceTree = "<group>"; };
+		C4445EA52AEFC53300BB9504 /* write.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = write.json; sourceTree = "<group>"; };
+		C4445EA62AEFC53300BB9504 /* listening-music.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "listening-music.json"; sourceTree = "<group>"; };
+		C4445EA72AEFC53300BB9504 /* heart5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart5.json; sourceTree = "<group>"; };
+		C4445EA82AEFC53300BB9504 /* arrow.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = arrow.json; sourceTree = "<group>"; };
+		C4445EA92AEFC53300BB9504 /* heart4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart4.json; sourceTree = "<group>"; };
+		C4445EAA2AEFC53300BB9504 /* hi.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hi.json; sourceTree = "<group>"; };
+		C4445EAB2AEFC53300BB9504 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		C4445EAD2AEFC53300BB9504 /* Ubuntu Mono derivative Powerline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu Mono derivative Powerline.ttf"; sourceTree = "<group>"; };
+		C4445EAE2AEFC53300BB9504 /* Ubuntu Mono derivative Powerline Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu Mono derivative Powerline Bold.ttf"; sourceTree = "<group>"; };
+		C4445EAF2AEFC53300BB9504 /* SmileySans-Oblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SmileySans-Oblique.ttf"; sourceTree = "<group>"; };
+		C4445EC02AEFC53D00BB9504 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		C4445EC42AEFC54400BB9504 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,18 +193,19 @@
 		C4445E182AEFBFAD00BB9504 /* StarlightDiary */ = {
 			isa = PBXGroup;
 			children = (
-				C4445E192AEFBFAD00BB9504 /* StarlightDiaryApp.swift */,
 				C4445E1F2AEFBFAE00BB9504 /* StarlightDiary.entitlements */,
 				C4445E552AEFC23B00BB9504 /* StarlightDiary.xcdatamodeld */,
 				C4445E582AEFC26C00BB9504 /* Assets.xcassets */,
+				C4445E192AEFBFAD00BB9504 /* StarlightDiaryApp.swift */,
 				C4445E482AEFC09200BB9504 /* Nav */,
-				C4445E4F2AEFC1EA00BB9504 /* View */,
+				C4445E6F2AEFC51B00BB9504 /* View */,
+				C4445E742AEFC51B00BB9504 /* Components */,
 				C4445E4B2AEFC18200BB9504 /* ViewModel */,
 				C4445E4C2AEFC19F00BB9504 /* Model */,
-				C4445E4D2AEFC1B400BB9504 /* Extension */,
-				C4445E512AEFC1FB00BB9504 /* Resources */,
-				C4445E532AEFC21700BB9504 /* zh-Hans.lproj */,
-				C4445E5A2AEFC27A00BB9504 /* en.lproj */,
+				C4445E902AEFC52700BB9504 /* Extension */,
+				C4445E9E2AEFC53300BB9504 /* Resources */,
+				C4445EBE2AEFC53D00BB9504 /* zh-Hans.lproj */,
+				C4445EC22AEFC54400BB9504 /* en.lproj */,
 				C4445E202AEFBFAE00BB9504 /* Preview Content */,
 			);
 			path = StarlightDiary;
@@ -179,8 +256,149 @@
 		C4445E4C2AEFC19F00BB9504 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C4445E5F2AEFC41B00BB9504 /* AppIcon.swift */,
+				C4445E652AEFC41C00BB9504 /* FontStyle.swift */,
+				C4445E622AEFC41B00BB9504 /* HeartColor.swift */,
+				C4445E642AEFC41B00BB9504 /* MoodType.swift */,
+				C4445E602AEFC41B00BB9504 /* PreferenceKey.swift */,
+				C4445E612AEFC41B00BB9504 /* Tab.swift */,
+				C4445E632AEFC41B00BB9504 /* Theme.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C4445E6F2AEFC51B00BB9504 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4445E702AEFC51B00BB9504 /* AppearanceView.swift */,
+				C4445E712AEFC51B00BB9504 /* DefaultDiaryView.swift */,
+				C4445E722AEFC51B00BB9504 /* DiaryView.swift */,
+				C4445E732AEFC51B00BB9504 /* JournalView.swift */,
+				C4445E7F2AEFC51B00BB9504 /* FavView.swift */,
+				C4445E802AEFC51B00BB9504 /* DiaryEditView.swift */,
+				C4445E812AEFC51B00BB9504 /* SettingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4445E742AEFC51B00BB9504 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C4445E752AEFC51B00BB9504 /* Mood Card */,
+				C4445E772AEFC51B00BB9504 /* Diary Card */,
+				C4445E7B2AEFC51B00BB9504 /* Others */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		C4445E752AEFC51B00BB9504 /* Mood Card */ = {
+			isa = PBXGroup;
+			children = (
+				C4445E762AEFC51B00BB9504 /* MinimalStyleMoodCard.swift */,
+			);
+			path = "Mood Card";
+			sourceTree = "<group>";
+		};
+		C4445E772AEFC51B00BB9504 /* Diary Card */ = {
+			isa = PBXGroup;
+			children = (
+				C4445E782AEFC51B00BB9504 /* DiaryCardView.swift */,
+				C4445E792AEFC51B00BB9504 /* DiaryListView.swift */,
+				C4445E7A2AEFC51B00BB9504 /* DiaryCardLayOutView.swift */,
+			);
+			path = "Diary Card";
+			sourceTree = "<group>";
+		};
+		C4445E7B2AEFC51B00BB9504 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C4445E7C2AEFC51B00BB9504 /* MyToastAlertView.swift */,
+				C4445E7D2AEFC51B00BB9504 /* MyTextFieldWithUIKit.swift */,
+				C4445E7E2AEFC51B00BB9504 /* MyDatePicker.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		C4445E902AEFC52700BB9504 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4445E912AEFC52700BB9504 /* MyLottieVIew.swift */,
+				C4445E922AEFC52700BB9504 /* Style */,
+				C4445E942AEFC52700BB9504 /* Color+.swift */,
+				C4445E952AEFC52700BB9504 /* MyFormatter.swift */,
+				C4445E962AEFC52700BB9504 /* UIPickerView+.swift */,
+				C4445E972AEFC52700BB9504 /* Date+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C4445E922AEFC52700BB9504 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				C4445E932AEFC52700BB9504 /* BlankButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		C4445E9E2AEFC53300BB9504 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4445E9F2AEFC53300BB9504 /* mmDiaryStore.storekit */,
+				C4445EA02AEFC53300BB9504 /* Preview Content */,
+				C4445EA22AEFC53300BB9504 /* lottie */,
+				C4445EAB2AEFC53300BB9504 /* Store.swift */,
+				C4445EAC2AEFC53300BB9504 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C4445EA02AEFC53300BB9504 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4445EA12AEFC53300BB9504 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4445EA22AEFC53300BB9504 /* lottie */ = {
+			isa = PBXGroup;
+			children = (
+				C4445EA32AEFC53300BB9504 /* heart3.json */,
+				C4445EA42AEFC53300BB9504 /* heart2.json */,
+				C4445EA52AEFC53300BB9504 /* write.json */,
+				C4445EA62AEFC53300BB9504 /* listening-music.json */,
+				C4445EA72AEFC53300BB9504 /* heart5.json */,
+				C4445EA82AEFC53300BB9504 /* arrow.json */,
+				C4445EA92AEFC53300BB9504 /* heart4.json */,
+				C4445EAA2AEFC53300BB9504 /* hi.json */,
+			);
+			path = lottie;
+			sourceTree = "<group>";
+		};
+		C4445EAC2AEFC53300BB9504 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C4445EAD2AEFC53300BB9504 /* Ubuntu Mono derivative Powerline.ttf */,
+				C4445EAE2AEFC53300BB9504 /* Ubuntu Mono derivative Powerline Bold.ttf */,
+				C4445EAF2AEFC53300BB9504 /* SmileySans-Oblique.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C4445EBE2AEFC53D00BB9504 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C4445EBF2AEFC53D00BB9504 /* Localizable.strings */,
+			);
+			path = "zh-Hans.lproj";
+			sourceTree = "<group>";
+		};
+		C4445EC22AEFC54400BB9504 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				C4445EC32AEFC54400BB9504 /* Localizable.strings */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +487,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = C4445E0D2AEFBFAD00BB9504;
 			productRefGroup = C4445E172AEFBFAD00BB9504 /* Products */;
@@ -287,13 +506,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4445E5B2AEFC27A00BB9504 /* en.lproj in Resources */,
+				C4445EB62AEFC53300BB9504 /* heart5.json in Resources */,
+				C4445EB82AEFC53300BB9504 /* heart4.json in Resources */,
+				C4445EBC2AEFC53300BB9504 /* Ubuntu Mono derivative Powerline Bold.ttf in Resources */,
+				C4445EB92AEFC53300BB9504 /* hi.json in Resources */,
+				C4445EC52AEFC54500BB9504 /* Localizable.strings in Resources */,
+				C4445EBB2AEFC53300BB9504 /* Ubuntu Mono derivative Powerline.ttf in Resources */,
+				C4445EB72AEFC53300BB9504 /* arrow.json in Resources */,
 				C4445E222AEFBFAE00BB9504 /* Preview Assets.xcassets in Resources */,
-				C4445E542AEFC21700BB9504 /* zh-Hans.lproj in Resources */,
-				C4445E4E2AEFC1B400BB9504 /* Extension in Resources */,
-				C4445E502AEFC1EA00BB9504 /* View in Resources */,
+				C4445EB22AEFC53300BB9504 /* heart3.json in Resources */,
+				C4445EB12AEFC53300BB9504 /* Preview Assets.xcassets in Resources */,
+				C4445EB42AEFC53300BB9504 /* write.json in Resources */,
 				C4445E592AEFC26C00BB9504 /* Assets.xcassets in Resources */,
-				C4445E522AEFC1FB00BB9504 /* Resources in Resources */,
+				C4445EB32AEFC53300BB9504 /* heart2.json in Resources */,
+				C4445EB52AEFC53300BB9504 /* listening-music.json in Resources */,
+				C4445EB02AEFC53300BB9504 /* mmDiaryStore.storekit in Resources */,
+				C4445EC12AEFC53D00BB9504 /* Localizable.strings in Resources */,
+				C4445EBD2AEFC53300BB9504 /* SmileySans-Oblique.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,11 +547,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4445E8E2AEFC51B00BB9504 /* DiaryEditView.swift in Sources */,
+				C4445E982AEFC52700BB9504 /* MyLottieVIew.swift in Sources */,
+				C4445E8D2AEFC51B00BB9504 /* FavView.swift in Sources */,
 				C4445E4A2AEFC14A00BB9504 /* DiaryViewModel.swift in Sources */,
 				C4445E572AEFC23B00BB9504 /* StarlightDiary.xcdatamodeld in Sources */,
+				C4445E852AEFC51B00BB9504 /* JournalView.swift in Sources */,
+				C4445EBA2AEFC53300BB9504 /* Store.swift in Sources */,
+				C4445E992AEFC52700BB9504 /* BlankButtonStyle.swift in Sources */,
+				C4445E6C2AEFC41C00BB9504 /* FontStyle.swift in Sources */,
+				C4445E8B2AEFC51B00BB9504 /* MyTextFieldWithUIKit.swift in Sources */,
+				C4445E822AEFC51B00BB9504 /* AppearanceView.swift in Sources */,
+				C4445E9A2AEFC52700BB9504 /* Color+.swift in Sources */,
+				C4445E662AEFC41C00BB9504 /* AppIcon.swift in Sources */,
+				C4445E842AEFC51B00BB9504 /* DiaryView.swift in Sources */,
+				C4445E682AEFC41C00BB9504 /* Tab.swift in Sources */,
+				C4445E6B2AEFC41C00BB9504 /* MoodType.swift in Sources */,
+				C4445E9D2AEFC52700BB9504 /* Date+.swift in Sources */,
+				C4445E692AEFC41C00BB9504 /* HeartColor.swift in Sources */,
+				C4445E672AEFC41C00BB9504 /* PreferenceKey.swift in Sources */,
 				C4445E1C2AEFBFAD00BB9504 /* ContentView.swift in Sources */,
+				C4445E892AEFC51B00BB9504 /* DiaryCardLayOutView.swift in Sources */,
+				C4445E8C2AEFC51B00BB9504 /* MyDatePicker.swift in Sources */,
+				C4445E872AEFC51B00BB9504 /* DiaryCardView.swift in Sources */,
+				C4445E862AEFC51B00BB9504 /* MinimalStyleMoodCard.swift in Sources */,
+				C4445E9B2AEFC52700BB9504 /* MyFormatter.swift in Sources */,
+				C4445E6A2AEFC41C00BB9504 /* Theme.swift in Sources */,
 				C4445E1A2AEFBFAD00BB9504 /* StarlightDiaryApp.swift in Sources */,
+				C4445E8F2AEFC51C00BB9504 /* SettingView.swift in Sources */,
+				C4445E832AEFC51B00BB9504 /* DefaultDiaryView.swift in Sources */,
+				C4445E882AEFC51B00BB9504 /* DiaryListView.swift in Sources */,
 				C4445E5D2AEFC28F00BB9504 /* MyTabView.swift in Sources */,
+				C4445E8A2AEFC51B00BB9504 /* MyToastAlertView.swift in Sources */,
+				C4445E9C2AEFC52700BB9504 /* UIPickerView+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +614,25 @@
 			targetProxy = C4445E322AEFBFAF00BB9504 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4445EBF2AEFC53D00BB9504 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4445EC02AEFC53D00BB9504 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C4445EC32AEFC54400BB9504 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4445EC42AEFC54400BB9504 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C4445E392AEFBFAF00BB9504 /* Debug */ = {
@@ -411,6 +687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -466,6 +743,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -476,16 +754,17 @@
 		C4445E3C2AEFBFAF00BB9504 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = StarlightDiary/StarlightDiary.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StarlightDiary/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "StarlightDiary/Preview\\ Content StarlightDiary/Assets.xcassets";
 				DEVELOPMENT_TEAM = DSHX4V92NH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -496,15 +775,16 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wxmvv.StarlightDiary;
+				MARKETING_VERSION = 0.8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = wxm.StarlightDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -514,16 +794,17 @@
 		C4445E3D2AEFBFAF00BB9504 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = StarlightDiary/StarlightDiary.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StarlightDiary/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "StarlightDiary/Preview\\ Content StarlightDiary/Assets.xcassets";
 				DEVELOPMENT_TEAM = DSHX4V92NH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -534,15 +815,16 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wxmvv.StarlightDiary;
+				MARKETING_VERSION = 0.8.1;
+				PRODUCT_BUNDLE_IDENTIFIER = wxm.StarlightDiary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

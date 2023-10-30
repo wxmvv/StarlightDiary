@@ -1,8 +1,8 @@
 //
 //  DiaryViewModel.swift
-//  mmDiary
+//  StarlightDiary
 //
-//  Created by wxm on 2022/9/22.
+//  Created by 萌萌 on 2023/10/30.
 //
 //https://cloud.tencent.com/developer/ask/sof/926782
 
@@ -130,7 +130,7 @@ class DiaryViewMode:ObservableObject{
     
     func exportAllToCSV() {
         //csv抬头
-        let fileName = "mwDiary - \(exportDateFormatteryyyyMMddHHmmss.string(from:Date())).csv"
+        let fileName = "StarlightDiary - \(exportDateFormatteryyyyMMddHHmmss.string(from:Date())).csv"
         //设定地址 不用管
         let path = NSURL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent(fileName)
         //csv表头

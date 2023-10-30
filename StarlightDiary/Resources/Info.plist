@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Ubuntu Mono derivative Powerline Bold.ttf</string>
+		<string>Ubuntu Mono derivative Powerline.ttf</string>
+		<string>SmileySans-Oblique.ttf</string>
+	</array>
+</dict>
+</plist>
