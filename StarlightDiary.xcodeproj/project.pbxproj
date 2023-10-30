@@ -9,11 +9,19 @@
 /* Begin PBXBuildFile section */
 		C4445E1A2AEFBFAD00BB9504 /* StarlightDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E192AEFBFAD00BB9504 /* StarlightDiaryApp.swift */; };
 		C4445E1C2AEFBFAD00BB9504 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E1B2AEFBFAD00BB9504 /* ContentView.swift */; };
-		C4445E1E2AEFBFAE00BB9504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4445E1D2AEFBFAE00BB9504 /* Assets.xcassets */; };
 		C4445E222AEFBFAE00BB9504 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4445E212AEFBFAE00BB9504 /* Preview Assets.xcassets */; };
 		C4445E2C2AEFBFAE00BB9504 /* StarlightDiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E2B2AEFBFAE00BB9504 /* StarlightDiaryTests.swift */; };
 		C4445E362AEFBFAF00BB9504 /* StarlightDiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E352AEFBFAF00BB9504 /* StarlightDiaryUITests.swift */; };
 		C4445E382AEFBFAF00BB9504 /* StarlightDiaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E372AEFBFAF00BB9504 /* StarlightDiaryUITestsLaunchTests.swift */; };
+		C4445E4A2AEFC14A00BB9504 /* DiaryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E492AEFC14A00BB9504 /* DiaryViewModel.swift */; };
+		C4445E4E2AEFC1B400BB9504 /* Extension in Resources */ = {isa = PBXBuildFile; fileRef = C4445E4D2AEFC1B400BB9504 /* Extension */; };
+		C4445E502AEFC1EA00BB9504 /* View in Resources */ = {isa = PBXBuildFile; fileRef = C4445E4F2AEFC1EA00BB9504 /* View */; };
+		C4445E522AEFC1FB00BB9504 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = C4445E512AEFC1FB00BB9504 /* Resources */; };
+		C4445E542AEFC21700BB9504 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C4445E532AEFC21700BB9504 /* zh-Hans.lproj */; };
+		C4445E572AEFC23B00BB9504 /* StarlightDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4445E552AEFC23B00BB9504 /* StarlightDiary.xcdatamodeld */; };
+		C4445E592AEFC26C00BB9504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4445E582AEFC26C00BB9504 /* Assets.xcassets */; };
+		C4445E5B2AEFC27A00BB9504 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C4445E5A2AEFC27A00BB9504 /* en.lproj */; };
+		C4445E5D2AEFC28F00BB9504 /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4445E5C2AEFC28F00BB9504 /* MyTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +45,6 @@
 		C4445E162AEFBFAD00BB9504 /* StarlightDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarlightDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4445E192AEFBFAD00BB9504 /* StarlightDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlightDiaryApp.swift; sourceTree = "<group>"; };
 		C4445E1B2AEFBFAD00BB9504 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C4445E1D2AEFBFAE00BB9504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4445E1F2AEFBFAE00BB9504 /* StarlightDiary.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StarlightDiary.entitlements; sourceTree = "<group>"; };
 		C4445E212AEFBFAE00BB9504 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4445E272AEFBFAE00BB9504 /* StarlightDiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarlightDiaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +52,17 @@
 		C4445E312AEFBFAF00BB9504 /* StarlightDiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarlightDiaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4445E352AEFBFAF00BB9504 /* StarlightDiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlightDiaryUITests.swift; sourceTree = "<group>"; };
 		C4445E372AEFBFAF00BB9504 /* StarlightDiaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarlightDiaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C4445E442AEFBFC100BB9504 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C4445E472AEFC03A00BB9504 /* docs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
+		C4445E492AEFC14A00BB9504 /* DiaryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewModel.swift; sourceTree = "<group>"; };
+		C4445E4D2AEFC1B400BB9504 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Extension; sourceTree = "<group>"; };
+		C4445E4F2AEFC1EA00BB9504 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		C4445E512AEFC1FB00BB9504 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		C4445E532AEFC21700BB9504 /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		C4445E562AEFC23B00BB9504 /* mwDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mwDiary.xcdatamodel; sourceTree = "<group>"; };
+		C4445E582AEFC26C00BB9504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4445E5A2AEFC27A00BB9504 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		C4445E5C2AEFC28F00BB9504 /* MyTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +93,8 @@
 		C4445E0D2AEFBFAD00BB9504 = {
 			isa = PBXGroup;
 			children = (
+				C4445E442AEFBFC100BB9504 /* README.md */,
+				C4445E472AEFC03A00BB9504 /* docs */,
 				C4445E182AEFBFAD00BB9504 /* StarlightDiary */,
 				C4445E2A2AEFBFAE00BB9504 /* StarlightDiaryTests */,
 				C4445E342AEFBFAF00BB9504 /* StarlightDiaryUITests */,
@@ -96,9 +116,17 @@
 			isa = PBXGroup;
 			children = (
 				C4445E192AEFBFAD00BB9504 /* StarlightDiaryApp.swift */,
-				C4445E1B2AEFBFAD00BB9504 /* ContentView.swift */,
-				C4445E1D2AEFBFAE00BB9504 /* Assets.xcassets */,
 				C4445E1F2AEFBFAE00BB9504 /* StarlightDiary.entitlements */,
+				C4445E552AEFC23B00BB9504 /* StarlightDiary.xcdatamodeld */,
+				C4445E582AEFC26C00BB9504 /* Assets.xcassets */,
+				C4445E482AEFC09200BB9504 /* Nav */,
+				C4445E4F2AEFC1EA00BB9504 /* View */,
+				C4445E4B2AEFC18200BB9504 /* ViewModel */,
+				C4445E4C2AEFC19F00BB9504 /* Model */,
+				C4445E4D2AEFC1B400BB9504 /* Extension */,
+				C4445E512AEFC1FB00BB9504 /* Resources */,
+				C4445E532AEFC21700BB9504 /* zh-Hans.lproj */,
+				C4445E5A2AEFC27A00BB9504 /* en.lproj */,
 				C4445E202AEFBFAE00BB9504 /* Preview Content */,
 			);
 			path = StarlightDiary;
@@ -127,6 +155,30 @@
 				C4445E372AEFBFAF00BB9504 /* StarlightDiaryUITestsLaunchTests.swift */,
 			);
 			path = StarlightDiaryUITests;
+			sourceTree = "<group>";
+		};
+		C4445E482AEFC09200BB9504 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				C4445E1B2AEFBFAD00BB9504 /* ContentView.swift */,
+				C4445E5C2AEFC28F00BB9504 /* MyTabView.swift */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		C4445E4B2AEFC18200BB9504 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4445E492AEFC14A00BB9504 /* DiaryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C4445E4C2AEFC19F00BB9504 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +285,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4445E5B2AEFC27A00BB9504 /* en.lproj in Resources */,
 				C4445E222AEFBFAE00BB9504 /* Preview Assets.xcassets in Resources */,
-				C4445E1E2AEFBFAE00BB9504 /* Assets.xcassets in Resources */,
+				C4445E542AEFC21700BB9504 /* zh-Hans.lproj in Resources */,
+				C4445E4E2AEFC1B400BB9504 /* Extension in Resources */,
+				C4445E502AEFC1EA00BB9504 /* View in Resources */,
+				C4445E592AEFC26C00BB9504 /* Assets.xcassets in Resources */,
+				C4445E522AEFC1FB00BB9504 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +316,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4445E4A2AEFC14A00BB9504 /* DiaryViewModel.swift in Sources */,
+				C4445E572AEFC23B00BB9504 /* StarlightDiary.xcdatamodeld in Sources */,
 				C4445E1C2AEFBFAD00BB9504 /* ContentView.swift in Sources */,
 				C4445E1A2AEFBFAD00BB9504 /* StarlightDiaryApp.swift in Sources */,
+				C4445E5D2AEFC28F00BB9504 /* MyTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +677,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4445E552AEFC23B00BB9504 /* StarlightDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4445E562AEFC23B00BB9504 /* mwDiary.xcdatamodel */,
+			);
+			currentVersion = C4445E562AEFC23B00BB9504 /* mwDiary.xcdatamodel */;
+			path = StarlightDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C4445E0E2AEFBFAD00BB9504 /* Project object */;
 }

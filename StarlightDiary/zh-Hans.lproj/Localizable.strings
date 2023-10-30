@@ -1,0 +1,73 @@
+/* 
+  Localizable.strings
+  mwDiary
+
+  Created by 萌萌 on 2023/3/8.
+  
+*/
+
+"Add to Favs" = "添加喜欢～";
+"Remove from Favs" = "不喜欢了！";
+"Diary deleted" = "日记已删除";
+
+"Search" = "查找";
+"Favourates" = "最爱";
+
+"My daily mood" = "我的今日心情";
+"save" = "保存";
+
+"Setting" = "设置";
+"Appearance" = "外观风格";
+"Export Data" = "导出文件";
+"Default Diary" = "日记模版";
+"Contact" = "联系我";
+
+"THEMES" = "主题！";
+"FONT STYLE" = "字体！";
+"APP ICON" = "APP图标";
+"FAV COLOR" = "最爱颜色";
+"LAYOUT" = "样式";
+"MORE" = "其他";
+"Small Title" = "小标题";
+"Title style above every page" = "每个页面顶部的标题大小";
+"Show Mood Card" = "显示心情卡片";
+"Mood Card in SettingView" = "在设置页面最上面";
+
+"I am title!" = "我是标题！";
+"This is a preview window, tap to change the list layout .This is a preview window, tap to change the list layout ." = "这是一个预览窗口，点击可以更改日记布局。 这是一个预览窗口，点击可以更改日记布局。";
+
+
+"Input your default title" = "输入默认标题";
+"Saved Default Diary" = "默认标题已保存";
+"Input your default title and body" = "输入默认标题和内容";
+
+"January" = "一月";
+"February" = "二月";
+"March" = "三月";
+"April" = "四月";
+"May" = "五月";
+"June" = "六月";
+"July" = "七月";
+"August" = "八月";
+"September" = "九月";
+"October" = "十月";
+"November" = "十一月";
+"December" = "十二月";
+
+"select" = "选择";
+"dismiss" = "取消";
+"You are deleting this journal" = "即将删除！";
+"delete" = "删除";
+"Are you sure?" = "确认吗";
+"Your diary Modified" = "已修改";
+"Save the Modified date?" = "是否修改？";
+
+
+"Hell0!" = "你好！";
+"Automatic" = "系统";
+"Light" = "白色";
+"Dark" = "黑色";
+"rainbow" = "彩虹";
+
+
+

@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  mwDiary
+
+  Created by 萌萌 on 2023/3/8.
+  
+*/
+
+"Add to Favs" = "Add to Favs";
+"Remove from Favs" = "Remove from Favs";
+"Diary deleted" = "Diary deleted";
+
+"Search" = "Search";
+"Favourates" = "Favourates";
+
+"My daily mood" = "My daily mood";
+"save" = "save";
+
+"Setting" = "Setting";
+"Appearance" = "Appearance";
+"Export Data" = "Export Data";
+"Default Diary" = "Default Diary";
+"Contact" = "Contact";
+
+"THEMES" = "THEMES";
+"FONT STYLE" = "FONT STYLE";
+"APP ICON" = "APP ICON";
+"FAV COLOR" = "FAV COLOR";
+"LAYOUT" = "LAYOUT";
+"MORE" = "MORE";
+"Small Title" = "Small Title";
+"Title style above every page" = "Title style above every page";
+"Show Mood Card" = "Show Mood Card";
+"Mood Card in SettingView" = "Mood Card in SettingView";
+
+"I am title!" = "I am title!";
+"This is a preview window, tap to change the list layout .This is a preview window, tap to change the list layout ." = "This is a preview window, tap to change the list layout .This is a preview window, tap to change the list layout .";
+
+
+"Input your default title" = "Input your default title";
+"Saved Default Diary" = "Saved Default Diary";
+"Input your default title and body" = "Input your default title and body";
+
+"January" = "January";
+"February" = "February";
+"March" = "March";
+"April" = "April";
+"May" = "May";
+"June" = "June";
+"July" = "July";
+"August" = "August";
+"September" = "September";
+"October" = "October";
+"November" = "November";
+"December" = "December";
+
+"select" = "select";
+"dismiss" = "dismiss";
+"You are deleting this journal" = "You are deleting this journal";
+"delete" = "delete";
+"Are you sure?" = "Are you sure?";
+"Your diary Modified" = "Your diary Modified";
+"Save the Modified date?" = "Save the Modified date?";
+
+
+
+"Hell0!" = "Hell0!";
+"Automatic" = "Automatic";
+"Light" = "Light";
+"Dark" = "Dark";
+"rainbow" = "rainbow";

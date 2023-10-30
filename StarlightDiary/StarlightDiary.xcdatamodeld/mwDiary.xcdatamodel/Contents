@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21279" systemVersion="22A5373b" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CreateDate" representedClassName="CreateDate" syncable="YES" codeGenerationType="class">
+        <attribute name="day" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="dayStr" optional="YES" attributeType="String"/>
+        <relationship name="diary" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="DiaryEntity" inverseName="createdate_relation" inverseEntity="DiaryEntity"/>
+    </entity>
+    <entity name="DiaryEntity" representedClassName="DiaryEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="body" optional="YES" attributeType="String"/>
+        <attribute name="create_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="is_fav" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="is_first" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="modified_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="mood" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="createdate_relation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CreateDate" inverseName="diary" inverseEntity="CreateDate"/>
+        <fetchedProperty name="fetchedProperty" optional="YES">
+            <fetchRequest name="fetchedPropertyFetchRequest" entity="DiaryEntity"/>
+        </fetchedProperty>
+    </entity>
+</model>

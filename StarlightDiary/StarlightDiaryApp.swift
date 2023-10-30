@@ -9,9 +9,25 @@ import SwiftUI
 
 @main
 struct StarlightDiaryApp: App {
+    @StateObject var diaryvm = DiaryViewMode()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(diaryvm)
         }
     }
 }
+
+
+//import SwiftUI
+//
+//@main
+//struct mwDiaryApp: App {
+//    @StateObject var diaryvm = DiaryViewMode()
+//    var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//                .environmentObject(diaryvm)
+//        }
+//    }
+//}
