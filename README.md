@@ -2,7 +2,9 @@
 
 A simple diary app made by SwiftUI framework.
 
-![](https://github.com/wxmvv/mwDiary/raw/main/mwDiary.png)
+[StarlightDiary HomePage](https://wxmvv.github.io/StarlightDiary/)
+
+![](https://wxmvv.github.io/StarlightDiary/preview.jpg)
 
 ## Todo
 
