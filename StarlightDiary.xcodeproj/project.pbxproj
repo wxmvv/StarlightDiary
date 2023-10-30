@@ -63,6 +63,7 @@
 		C4445E582AEFC26C00BB9504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4445E5A2AEFC27A00BB9504 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
 		C4445E5C2AEFC28F00BB9504 /* MyTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		C4445E5E2AEFC36E00BB9504 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 		C4445E0D2AEFBFAD00BB9504 = {
 			isa = PBXGroup;
 			children = (
+				C4445E5E2AEFC36E00BB9504 /* .gitignore */,
 				C4445E442AEFBFC100BB9504 /* README.md */,
 				C4445E472AEFC03A00BB9504 /* docs */,
 				C4445E182AEFBFAD00BB9504 /* StarlightDiary */,
